@@ -1,0 +1,87 @@
+npm run dev
+npm run electron-dev
+
+python backend/app.py
+
+cd renderer
+npm run dev
+
+npm run electron-dev
+
+
+--------------------------------
+Prompt:
+I am building a B2B workspace multifunctional agentic AI tool, where users can ask questions or let it take actions. The AI is integrated with various third party APIs/ tools (such as Slack, google doc, calculator API), and it will be able to reason what (set of) tools and APIs to use to answer the question or take an action.
+For example, if user asks "how should I add a button UI on our frontend webpage", the AI might be able to search in Slack via Slack API and then synthensize the information for user, all in a conversation style.
+
+I will use Claude Computer Use for the conversion of human language to API call, please look it up if you're not familiar.
+I will use LDAP/AD for tools access control and permissions, similiar to Okta.
+
+I haven't decided whehter it will be a desktop app or a web app, but I'm leaning towards a desktop app.
+
+tech stack:
+Electron
+Python?
+dmg
+
+system design and architecture:
+components
+Claude Computer Use
+Third party tools
+LDAP
+
+marketting:
+small size (email, linkedin, office)
+
+vc
+
+timeline
+
+team
+
+--------------------------------
+repo structure
+
+electron-next-app/
+├── main/                         # Electron main process
+│   ├── main.js                   # Entry point for Electron
+│   ├── preload.js                # Preload script
+│   ├── services/                 # Business logic for Electron main process
+│   └── config/                   # Config files for Electron
+├── renderer/                     # Next.js (Frontend)
+│   ├── components/               # Reusable React components
+│   │   ├── Button.tsx            # Example UI component
+│   │   └── Layout.tsx            # Shared layout component
+│   ├── pages/                    # Next.js pages
+│   │   ├── index.tsx             # Homepage
+│   │   ├── settings.tsx          # Example settings page
+│   │   └── api/                  # API routes for internal APIs
+│   ├── styles/                   # Global styles (CSS/SCSS)
+│   └── utils/                    # Shared utilities (e.g., helpers)
+├── backend/                      # Python backend
+│   ├── app.py                    # Flask/FastAPI entry point
+│   ├── api/                      # API endpoints
+│   │   └── slack_integration.py  # Example API endpoint
+│   ├── models/                   # Database models
+│   ├── services/                 # Business logic
+│   ├── utils/                    # Utility functions
+│   └── tests/                    # Unit tests
+├── config/                       # Shared config
+│   ├── electron.config.js        # Electron-specific config
+│   ├── next.config.js            # Next.js-specific config
+│   └── docker/                   # Dockerfiles
+├── docker/                       # Docker-related files
+│   ├── Dockerfile.frontend       # Dockerfile for Next.js
+│   ├── Dockerfile.backend        # Dockerfile for Python backend
+│   └── docker-compose.yml        # Docker Compose for the project
+├── scripts/                      # Automation scripts (e.g., database migrations)
+├── tests/                        # End-to-end and integration tests
+│   ├── e2e/                      # End-to-end tests
+│   └── integration/              # Integration tests
+├── .env                          # Environment variables
+├── README.md                     # Documentation
+├── package.json                  # Node.js dependencies
+├── requirements.txt              # Python dependencies
+└── prometheus/                   # Monitoring configuration
+    ├── prometheus.yml            # Prometheus config
+    └── grafana/                  # Grafana dashboards
