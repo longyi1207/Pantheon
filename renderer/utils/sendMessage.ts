@@ -5,25 +5,19 @@ export interface Message {
   
   export async function sendMessageToBackend(
     content: string,
-    backend: 'test' | 'claude' | 'openai' | 'custom' = 'test'
+    llm: 'claude' | 'openai' | 'test'
   ): Promise<Message> {
     let apiUrl = '/api/send-message'; // Default to test endpoint
-  
-    if (backend === 'openai') {
-      apiUrl = '/api/openai/chat'; // Placeholder for OpenAI
-    } else if (backend === 'custom') {
-      apiUrl = '/api/claude/computer-use'; // Placeholder for Claude
-    }
   
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: content }),
+        body: JSON.stringify({ prompt: content , llm: llm}),
       });
   
       if (!response.ok) {
-        throw new Error(`Error from ${backend} backend: ${response.statusText}`);
+        throw new Error(`Error from backend: ${response.statusText}`);
       }
   
       const data = await response.json();

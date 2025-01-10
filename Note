@@ -8,6 +8,22 @@ npm run dev
 
 npm run electron-dev
 
+--------------------------------
+Computer Use:
+Claude loads the stored computer use tool definitions and assesses if any tools can help with the user’s query.
+If yes, Claude constructs a properly formatted tool use request.
+
+MCP
+MCP provides a standardized way to connect AI models to different data sources and tools.
+
+--------------------------------
+MCP
+server: prebulit, custom
+
+--------------------------------
+how to set up LDAP/AD
+--------------------------------
+how to set up database connection and prometheus, I want to create reusable utils functions first
 
 --------------------------------
 Prompt:
@@ -26,7 +42,7 @@ dmg
 
 system design and architecture:
 components
-Claude Computer Use
+MCP
 Third party tools
 LDAP
 

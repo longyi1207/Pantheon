@@ -1,13 +1,27 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from api.openai_controller import openai_api
-from api.claude_controller import claude_api
+from services.llm_interface import OpenAIInterface, ClaudeInterface, TestInterface
+from services.client_repository import ClientRepository
+from services.mcp_client import MCPClient
+from services.agent_loop import AgentLoop
+import os
+# from services.tools import GitHubTool, AWSTool
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
 
-app.register_blueprint(openai_api, url_prefix='/api/openai')
-app.register_blueprint(claude_api, url_prefix='/api/claude')
+
+LLM_MAP = {
+    'openai': OpenAIInterface(api_key=os.getenv('OPENAI_API_KEY'), model="gpt-4"),
+    'claude': ClaudeInterface(api_key=os.getenv('CLAUDE_API_KEY'), model="gpt-4"),
+    'test': TestInterface()
+}
+
+MCPClient_MAP = {
+    # 'github': GitHubTool(token=os.getenv('GITHUB_TOKEN')),
+    # 'aws': AWSTool(access_key=os.getenv('AWS_ACCESS_KEY'), secret_key=os.getenv('AWS_SECRET_KEY'))
+    'example_tool': MCPClient(server_url="http://example.com")
+}
 
 @app.route('/test', methods=['GET'])
 def test():
@@ -22,10 +36,13 @@ def send_message():
         return jsonify({'error': 'No JSON data received'}), 400
 
     user_message = data.get('message', '')
+    llm = data.get('llm')
     print(f"User message: {user_message}")
-    # Simulate an AI bot reply
-    bot_reply = f"I received your message: {user_message}"
-    return jsonify({'reply': bot_reply})
+    agent = AgentLoop(llm, client_repo)
+    agent.run(user_message)
 
 if __name__ == '__main__':
+    client_repo = ClientRepository()
+    client_repo.add_client("example_tool", MCPClient(server_url="http://example.com"))
     app.run(debug=True, port=5001)
+    
