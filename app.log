@@ -1,0 +1,139 @@
+2025-01-10 16:42:29,549 - services.agent_loop - INFO - Starting agent loop with user input: 
+2025-01-10 16:44:01,773 - services.agent_loop - INFO - Starting agent loop with user input: 
+2025-01-10 16:51:04,982 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:09:07,021 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:09:36,429 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:11:26,107 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:30:42,914 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:31:28,899 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:32:40,699 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:35:29,313 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:37:37,047 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:50:51,414 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:51:46,490 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:52:48,777 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:56:42,298 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 17:58:27,079 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 21:15:06,836 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 21:48:28,011 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:30:41,827 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:36:58,048 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:37:52,758 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:37:52,758 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:10,687 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:10,687 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:10,687 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:25,121 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:25,121 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:25,121 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:38:25,121 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:40:20,250 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:40:20,250 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:40:20,250 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:40:20,250 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:40:20,250 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:44:48,630 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:51:11,544 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:51:28,479 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:51:28,479 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 22:52:01,693 - services.agent_loop - INFO - Starting agent loop with user input: what date is today
+2025-01-10 22:52:01,693 - services.agent_loop - INFO - Starting agent loop with user input: what date is today
+2025-01-10 22:52:01,693 - services.agent_loop - INFO - Starting agent loop with user input: what date is today
+2025-01-10 22:52:36,527 - services.agent_loop - INFO - Starting agent loop with user input: how can I let you have acess to a calender
+2025-01-10 22:52:36,527 - services.agent_loop - INFO - Starting agent loop with user input: how can I let you have acess to a calender
+2025-01-10 22:52:36,527 - services.agent_loop - INFO - Starting agent loop with user input: how can I let you have acess to a calender
+2025-01-10 22:52:36,527 - services.agent_loop - INFO - Starting agent loop with user input: how can I let you have acess to a calender
+2025-01-10 22:58:50,286 - services.agent_loop - INFO - Starting agent loop with user input: what tools do you have
+2025-01-10 23:28:16,356 - services.agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 23:33:31,877 - agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 23:33:39,615 - agent_loop - INFO - Starting agent loop with user input: what tools do you have
+2025-01-10 23:33:39,615 - agent_loop - INFO - Starting agent loop with user input: what tools do you have
+2025-01-10 23:36:27,637 - agent_loop - INFO - Starting agent loop with user input: hi
+2025-01-10 23:36:45,909 - agent_loop - INFO - Starting agent loop with user input: what tools do you have
+2025-01-10 23:36:45,909 - agent_loop - INFO - Starting agent loop with user input: what tools do you have
+2025-01-10 23:37:40,262 - agent_loop - INFO - Starting agent loop with user input: oh nice, can you execute the "ls" command
+2025-01-10 23:37:40,262 - agent_loop - INFO - Starting agent loop with user input: oh nice, can you execute the "ls" command
+2025-01-10 23:37:40,262 - agent_loop - INFO - Starting agent loop with user input: oh nice, can you execute the "ls" command
+2025-01-10 23:40:23,077 - agent_loop - INFO - Starting agent loop with user input: can we try again
+2025-01-10 23:40:26,012 - agent_loop - INFO - Tool call result: Failure
+2025-01-10 23:40:30,271 - agent_loop - INFO - Tool call result: Failure
+2025-01-10 23:40:32,779 - agent_loop - INFO - Tool call result: Failure
+2025-01-10 23:58:18,509 - agent_loop - INFO - Starting agent loop with user input: []
+2025-01-10 23:59:35,172 - agent_loop - INFO - Starting agent loop with user input: []
+2025-01-11 00:01:38,141 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'error', 'content': 'Failed to process the message: Error from backend: INTERNAL SERVER ERROR'}]
+2025-01-11 00:06:29,347 - agent_loop - INFO - Starting agent loop with user input: []
+2025-01-11 00:07:51,208 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Failed to process the message: Error from backend: INTERNAL SERVER ERROR'}]
+2025-01-11 00:07:51,208 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Failed to process the message: Error from backend: INTERNAL SERVER ERROR'}]
+2025-01-11 00:09:42,290 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}]
+2025-01-11 00:09:42,290 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}]
+2025-01-11 00:09:42,290 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}]
+2025-01-11 00:09:50,152 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}]
+2025-01-11 00:09:50,152 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}]
+2025-01-11 00:09:50,152 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}]
+2025-01-11 00:09:50,152 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}]
+2025-01-11 00:10:03,669 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}]
+2025-01-11 00:10:03,669 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}]
+2025-01-11 00:10:03,669 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}]
+2025-01-11 00:10:03,669 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}]
+2025-01-11 00:10:03,669 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}]
+2025-01-11 00:10:05,578 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:05,578 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:05,578 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:05,578 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:05,578 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:07,496 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:07,496 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:07,496 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:07,496 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:07,496 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:10,290 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:10,290 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:10,290 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:10,290 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:10,290 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:12,050 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:12,050 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:12,050 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:12,050 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:12,050 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:13,836 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:13,836 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:13,836 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:13,836 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:13,836 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:15,606 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:15,606 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:15,606 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:15,606 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:15,606 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:17,581 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:17,581 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:17,581 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:17,581 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:17,581 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:21,863 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:21,863 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:21,863 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:21,863 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:21,863 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:23,729 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:23,729 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:23,729 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:23,729 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:23,729 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:25,835 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:25,835 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:25,835 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:25,835 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:25,835 - agent_loop - INFO - Tool call result: Failure
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]
+2025-01-11 00:10:47,291 - agent_loop - INFO - Starting agent loop with user input: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': "Hello! I'm here to help you. I have access to a bash command environment that can help with various tasks like running commands, managing files, and working with Linux tools. What would you like to do?"}, {'role': 'user', 'content': 'let me name you Jack'}, {'role': 'assistant', 'content': 'Hi! Thanks for giving me a name. You can call me Jack. How can I help you today?'}, {'role': 'user', 'content': 'what date is today'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3ae0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3920>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3bc0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb3530>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb35a0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112fb36f0>'}, {'role': 'user', 'content': 'Error calling bash: <coroutine object BashTool.__call__ at 0x112c33680>'}, {'role': 'user', 'content': "emm seems like something broke, that's ok, thanks.... your name was?"}]

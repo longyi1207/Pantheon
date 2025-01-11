@@ -1,6 +1,7 @@
-from typing import Dict
+from typing import Dict, List
 from .mcp_client import MCPClient
-
+from mcp_server.collection import ToolCollection
+from mcp_server.base import BaseMCPTool
 
 class ClientRepository:
     """Repository to manage MCP clients."""
@@ -18,6 +19,9 @@ class ClientRepository:
             raise ValueError(f"Client {name} not found")
         return self.clients[name]
 
-    def get_all_clients(self) -> Dict[str, MCPClient]:
-        """Retrieve all MCP clients."""
-        return self.clients
+    def get_all_tools(self) -> ToolCollection:
+        """Retrieve all MCP tools."""
+        tools: List[BaseMCPTool] = [    ]
+        for client in self.clients.values():
+            tools.append(client.get_tool())
+        return ToolCollection(tools)

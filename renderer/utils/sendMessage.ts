@@ -1,19 +1,19 @@
 export interface Message {
-    sender: string;
+    role: string;
     content: string;
   }
   
-  export async function sendMessageToBackend(
-    content: string,
+  export async function ChatWithBackend(
+    messages,
     llm: 'claude' | 'openai' | 'test'
-  ): Promise<Message> {
+  ): Promise<Message[]> {
     let apiUrl = '/api/send-message'; // Default to test endpoint
-  
+    console.log("frontend messages", messages)
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: content , llm: llm}),
+        body: JSON.stringify({ messages: messages, llm: llm}),
       });
   
       if (!response.ok) {
@@ -21,10 +21,9 @@ export interface Message {
       }
   
       const data = await response.json();
-      return { sender: 'Bot', content: data.reply || 'No response received.' };
+      return data.response
     } catch (error) {
-      console.error(error);
-      return { sender: 'Error', content: `Failed to get a response: ${error.message}` };
+      throw error
     }
   }
   

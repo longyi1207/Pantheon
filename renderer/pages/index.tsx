@@ -1,32 +1,41 @@
 import React, { useState } from 'react';
 import ChatWindow from '../components/ChatWindow';
 import MessageInput from '../components/MessageInput';
-import { sendMessageToBackend, Message } from '../utils/sendMessage';
+import { ChatWithBackend, Message } from '../utils/sendMessage';
 // import { useMCP } from '../context/MCPContext';
 const Chat = () => {
   const [messages, setMessages] = useState<Message[]>([]);
-  // const { startServer, stopServer, activeServers } = useMCP();
+  const [model, setModel] = useState<'claude' | 'openai' | 'test'>('claude');
+
+  const preprocessMessages = (messages: Message[], model) => {
+    if (model === 'claude') {
+      return messages.map(m => ({ role: m.role, content: m.content }));
+    }
+    
+    // not implemented error
+    throw new Error('convertMessagesToString not implemented for model: ' + model);
+  }
 
   const sendMessage = async (content: string) => {
-    setMessages((prev) => [...prev, { sender: 'User', content }]);
-    
-    try {
-      // // Ensure the required MCP server is running
-      // if (!activeServers.includes('brave-search')) {
-      //     await startServer('brave-search');
-      // }
+    const newMessage = { role: 'user', content };
+    setMessages((prev) => [...prev, newMessage]);
 
+    try {
       // Send the message via the backend
-      const response = await sendMessageToBackend(content, 'claude');
-      setMessages((prev) => [...prev, response]);
-  } catch (error) {
+      console.log("sending message", content);
+      const preprocessedMessages = preprocessMessages([...messages, newMessage], model);
+      console.log("preprocessed messages", preprocessedMessages);
+      const response = await ChatWithBackend(preprocessedMessages, model);
+      setMessages((prev) => [...prev, ...response]);
+
+    } catch (error) {
       console.error(error);
       setMessages((prev) => [
-          ...prev,
-          { sender: 'Error', content: `Failed to process the message: ${error.message}` },
+        ...prev,
+        { role: 'assistant', content: `Failed to process the message: ${error.message}` },
       ]);
-  }
-};
+    }
+  };
 
   return (
     <div>

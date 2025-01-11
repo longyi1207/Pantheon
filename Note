@@ -1,6 +1,7 @@
 npm run dev
 npm run electron-dev
 
+source myenv3.10/bin/activate
 python backend/app.py
 
 cd renderer
