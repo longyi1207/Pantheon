@@ -26,7 +26,7 @@ class LLMInterface(ABC):
         pass
 
     @abstractmethod
-    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[str]]:
+    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[BetaToolUseBlockParam]]:
         """Parse the response from the LLM."""
         pass
 
@@ -50,7 +50,7 @@ class OpenAIInterface(LLMInterface):
             tools=tools,
         )
         return response
-    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[str]]:
+    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[BetaToolUseBlockParam]]:
         return response
 
 class ClaudeInterface(LLMInterface):
@@ -73,13 +73,13 @@ class ClaudeInterface(LLMInterface):
         )
         return response.parse()
     
-    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[str]]:
+    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[BetaToolUseBlockParam]]:
         response_params = _response_to_params(response)
-        tools_content: List[str] = []
+        tools_content: List[BetaToolUseBlockParam] = []
         message_content: List[str] = []
         for content_block in response_params:
             if content_block["type"] == "tool_use":
-                tools_content.append(content_block["name"])
+                tools_content.append(content_block)
             elif content_block["type"] == "text":
                 message_content.append(content_block["text"])
 
@@ -89,7 +89,7 @@ class TestInterface(LLMInterface):
     def chat_completion(self, messages: List[Dict[str, str]], tools: List[Dict[str, Any]]) -> Dict[str, Any]:
         return {"role": "assistant", "content": "This is a test response."}
     
-    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[str]]:
+    def parse_response(self, response: Dict[str, Any]) -> Tuple[List[str], List[BetaToolUseBlockParam]]:
         return response
 
 
@@ -99,10 +99,9 @@ def _response_to_params(
     res: list[Union[BetaTextBlockParam, BetaToolUseBlockParam]] = []
     for block in response.content:
         if isinstance(block, BetaTextBlock):
+            # a text block
             res.append({"type": "text", "text": block.text})
-        elif hasattr(block, 'model_dump') and callable(getattr(block, 'model_dump')):
-            res.append(cast(BetaToolUseBlockParam, block.model_dump()))
         else:
-            # Handle unexpected block types
-            print(f"Unexpected block type: {type(block)}")
+            # a tool use block
+            res.append(cast(BetaToolUseBlockParam, block.model_dump()))
     return res

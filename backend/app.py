@@ -1,10 +1,11 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from llm.llm_interface import OpenAIInterface, ClaudeInterface, TestInterface
-from mcp_client.client_repository import ClientRepository
+from mcp_server.collection import ToolCollection
 from agent_loop import AgentLoop
 import os
-# from services.tools import GitHubTool, AWSTool
+from mcp_server.bash import BashTool
+import asyncio
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
@@ -16,6 +17,11 @@ LLM_MAP = {
     'test': TestInterface()
 }
 
+TOOLS = ToolCollection(
+    [
+        BashTool()
+    ]
+)
 @app.route('/test', methods=['GET'])
 def test():
     return "Server is running!"
@@ -30,11 +36,11 @@ def send_message():
 
     user_input = data.get('messages', [])
     llm_model = LLM_MAP[data.get('llm')]
-    agent = AgentLoop(llm_model, client_repo)
-    response = agent.run(user_input)
+    agent = AgentLoop(llm_model, TOOLS)
+    # response = agent.run(user_input)
+    response = asyncio.run(agent.run(user_input))
     return jsonify({'response': response}), 200
 
 if __name__ == '__main__':
-    client_repo = ClientRepository()
     app.run(debug=True, port=5001)
     
